@@ -1,0 +1,177 @@
+@charset "UTF-8" ;
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(87, 177, 128);
+}
+
+nav > a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: Asap, Asap;
+}
+
+nav ul {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #000000;
+}
+
+body {
+   background-image: url(kazuha-fundo.jpg);
+    font-family: Asap, Asap;
+}
+
+h1, h2, h3, p {
+    font-family: Asap, Asap;
+    color: black;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+    color: #ebd217;
+}
+
+header h1 {
+    font-family: Nunito;
+}
+
+header p {
+    margin-bottom: 2em;
+}
+
+#builds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+}
+
+
+#builds p a {
+    text-decoration: none;
+    color: #000000;
+    max-width: 1000px;
+}
+
+#armas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+}
+
+#armas p a {
+    text-decoration: none;
+    color: #000000;
+    max-width: 1000px;
+}
+
+#videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+}
+
+#videos ul li a {
+    text-decoration: none;
+    color: #000000;
+    max-width: 1000px;
+}
+
+#falecomigo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+}
+
+#falecomigo ul li a {
+    text-decoration: none;
+    color: #000000;
+    max-width: 1000px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000000;
+    text-align: left;
+}
+ 
+footer p a {
+    text-decoration: none;
+    color: #000000;
+    text-align: right;
+}
+
+@media screen and (min-width: 770px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+    header {
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+    }
+
+    #builds {
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+    #armas {
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+    #videos {
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+   footer {
+    justify-content: space-between;
+   }
+}
