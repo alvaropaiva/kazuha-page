@@ -1,0 +1,1 @@
+Primeiros passos, pagina simples e informativa sobre o personagem.
